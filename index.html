@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="./Popup.js" defer></script>
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <section class="Subscribtion-sec">
+    <div class="Illustration-mobile-img-div">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="Illustration-mobile-img"
+        class="Illustration-mobile-img">
+    </div>
+
+
+    <div class="info-container">
+
+
+      <h1 class="Stay-H1">Stay updated!</h1>
+
+      <p class="Join-P">Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <div>
+        <span class="list-point-container">
+          <img src="./assets/images/icon-list.svg" alt="icon pic" class="icon-list">
+          <p>Product discovery and building what matters</p>
+        </span>
+        <span class="list-point-container">
+          <img src="./assets/images/icon-list.svg" alt="icon pic" class="icon-list">
+          <p>Measuring to ensure updates are a success</p>
+        </span>
+        <span class="list-point-container2">
+          <img src="./assets/images/icon-list.svg" alt="icon pic" class="icon-list">
+          <p>And much more!</p>
+        </span>
+      </div>
+    
+
+    <form id="News-letter-form">
+      <div class="Error-n-label" >
+
+        <label for="Email">Email address</label>
+        <span  id="Error-Massege"></span>
+
+      </div>
+      
+      <br>
+      <input type="text" placeholder="email@company.com" id="Email">
+      <br>
+
+      <button type="submit" class="subscribtion-btn">Subscribe to monthly newsletter</button>
+
+    </form>
+
+
+    </div>
+    <div class="Img-container">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="Illustration picture" class="Illustration-img">
+    </div>
+
+
+
+  </section>
+  <section id="Popup-Container">
+    <div class="popup-content">
+      
+    <img src="./assets/images/icon-success.svg" alt="success-icon" class="Success-icon">
+     <div  class="Popup-Info">
+
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to <span id="UserEmail"></span>.
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+        <button id="Close-popup"> Dismiss message</button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+
+</body>
+
+</html>

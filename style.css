@@ -1,0 +1,1532 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@media (min-width:2001px)   {
+
+        body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 18%, 26%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Roboto;
+}
+
+.Subscribtion-sec{
+    background-color: hsl(0, 0%, 100%);
+    width: 49%;
+    height: 67vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribtion-btn{
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    padding: 4%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 10px;
+   
+}
+
+.subscribtion-btn:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+
+.info-container{
+ width: 42%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 4%;
+ height: fit-content;
+ background-color: aqua;
+ 
+}
+
+
+.Stay-H1{
+    font-size: 3.5rem;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    font-weight: 700;
+    
+}
+
+
+.Join-P{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.list-point-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+    margin: 0;
+}
+
+.list-point-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+    margin: 0;
+}
+
+.list-point-container2 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container img{
+    height: fit-content;
+}
+
+form{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    width: 91%;
+    padding:4%;
+    border-radius: 10px;
+    border:2px solid hsl(0, 0%,58%);
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+form label{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    
+    
+}
+
+.Img-container{
+    height: 100%;
+    width: auto;
+}
+
+.Illustration-img{
+    height: 100%;
+    width: 100%;
+}
+
+.Error-n-label{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    justify-content: space-between;
+    width: 100%; 
+    margin: 1% 0 0 0;
+}
+
+#Error-Massege{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    color:hsl(4, 100%, 67%);
+}
+
+.error{
+    border-color: hsl(4, 100%, 67%) ;
+    color: hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.171);    
+}
+
+.Illustration-mobile-img-div{
+    display: none;
+}
+
+.Illustration-mobile-img{
+    display: none;
+}
+
+
+  
+
+ /*====Popup======*/
+
+#Popup-Container {
+display: none; /* hidden initially */
+width: 100%;
+height: 100vh;
+padding: 1%;
+border-radius: 10px;
+border: none;
+background-color:hsl(235, 18%, 26%);
+position: fixed;
+flex-direction: column;
+
+}
+
+.popup-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 20%;
+    height: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: none;
+    margin: auto auto;
+}
+
+.Success-icon{
+    width: 15%;
+    margin: 5% 0 0 8% ;
+}
+
+.Popup-Info{
+    width: 86%;
+    margin: 0 auto 15%;
+}
+
+.Popup-Info h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Popup-Info P{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.Popup-Info button{
+ 
+ width: 100%;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 4% 0;
+ border-radius: 10px;
+ border: none;
+ background-color: hsl(234, 29%, 20%);
+ color: hsl(0, 0%, 100%);
+ margin-top: 6%;
+ 
+
+}
+
+.Popup-Info button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+#UserEmail{
+    font-weight: 700;
+    font-size: 16px;
+}
+    
+}
+
+@media (min-width:1526px) and (max-width:2000px)  {
+
+        body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 18%, 26%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Roboto;
+}
+
+.Subscribtion-sec{
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    height: 67vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribtion-btn{
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    padding: 4%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 10px;
+   
+}
+
+.subscribtion-btn:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+
+.info-container{
+ width: 42%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 4%;
+ height: fit-content;
+ background-color: aqua;
+ 
+}
+
+
+.Stay-H1{
+    font-size: 3.5rem;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    font-weight: 700;
+    
+}
+
+
+.Join-P{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.list-point-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+    margin: 0;
+}
+
+.list-point-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+    margin: 0;
+}
+
+.list-point-container2 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container img{
+    height: fit-content;
+}
+
+form{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    width: 91%;
+    padding:4%;
+    border-radius: 10px;
+    border:2px solid hsl(0, 0%,58%);
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+form label{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    
+    
+}
+
+.Img-container{
+    height: 100%;
+    width: auto;
+}
+
+.Illustration-img{
+    height: 100%;
+    width: 100%;
+}
+
+.Error-n-label{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    justify-content: space-between;
+    width: 100%; 
+    margin: 1% 0 0 0;
+}
+
+#Error-Massege{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    color:hsl(4, 100%, 67%);
+}
+
+.error{
+    border-color: hsl(4, 100%, 67%) ;
+    color: hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.171);    
+}
+
+.Illustration-mobile-img-div{
+    display: none;
+}
+
+.Illustration-mobile-img{
+    display: none;
+}
+
+
+  
+
+ /*====Popup======*/
+
+#Popup-Container {
+display: none; /* hidden initially */
+width: 100%;
+height: 100vh;
+padding: 1%;
+border-radius: 10px;
+border: none;
+background-color:hsl(235, 18%, 26%);
+position: fixed;
+flex-direction: column;
+
+}
+
+.popup-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 20%;
+    height: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: none;
+    margin: auto auto;
+}
+
+.Success-icon{
+    width: 15%;
+    margin: 5% 0 0 8% ;
+}
+
+.Popup-Info{
+    width: 86%;
+    margin: 0 auto 15%;
+}
+
+.Popup-Info h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Popup-Info P{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.Popup-Info button{
+ 
+ width: 100%;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 4% 0;
+ border-radius: 10px;
+ border: none;
+ background-color: hsl(234, 29%, 20%);
+ color: hsl(0, 0%, 100%);
+ margin-top: 6%;
+ 
+
+}
+
+.Popup-Info button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+#UserEmail{
+    font-weight: 700;
+    font-size: 16px;
+}
+    
+}
+
+
+
+@media ( min-width: 1300px) and (max-width:1525px){
+    
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 18%, 26%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Roboto;
+}
+
+.Subscribtion-sec{
+    background-color: hsl(0, 0%, 100%);
+    width: 65%;
+    height: 67vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribtion-btn{
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    padding: 4%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 10px;
+   
+}
+
+.subscribtion-btn:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+
+.info-container{
+ width: 42%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 4%;
+ height: fit-content;
+ 
+}
+
+
+.Stay-H1{
+    font-size: 3.5rem;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    font-weight: 700;
+    
+}
+
+
+.Join-P{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.list-point-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+    margin: 0;
+}
+
+.list-point-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+    margin: 0;
+}
+
+.list-point-container2 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container img{
+    height: fit-content;
+}
+
+form{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    width: 91%;
+    padding:4%;
+    border-radius: 10px;
+    border:2px solid hsl(0, 0%,58%);
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+form label{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    
+    
+}
+
+.Img-container{
+    height: 100%;
+    width: auto;
+}
+
+.Illustration-img{
+    height: 100%;
+    width: 100%;
+}
+
+.Error-n-label{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    justify-content: space-between;
+    width: 100%; 
+    margin: 1% 0 0 0;
+}
+
+#Error-Massege{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    color:hsl(4, 100%, 67%);
+}
+
+.error{
+    border-color: hsl(4, 100%, 67%) ;
+    color: hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.171);    
+}
+
+.Illustration-mobile-img-div{
+    display: none;
+}
+
+.Illustration-mobile-img{
+    display: none;
+}
+
+
+  
+
+ /*====Popup======*/
+
+#Popup-Container {
+display: none; /* hidden initially */
+width: 100%;
+height: 100vh;
+padding: 1%;
+border-radius: 10px;
+border: none;
+background-color:hsl(235, 18%, 26%);
+position: fixed;
+flex-direction: column;
+
+}
+
+.popup-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    height: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: none;
+    margin: auto auto;
+}
+
+.Success-icon{
+    width: 15%;
+    margin: 5% 0 0 8% ;
+}
+
+.Popup-Info{
+    width: 86%;
+    margin: 0 auto 15%;
+}
+
+.Popup-Info h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Popup-Info P{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.Popup-Info button{
+ 
+ width: 100%;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 4% 0;
+ border-radius: 10px;
+ border: none;
+ background-color: hsl(234, 29%, 20%);
+ color: hsl(0, 0%, 100%);
+ margin-top: 6%;
+ 
+
+}
+
+.Popup-Info button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+#UserEmail{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+}
+
+@media (min-width:1025px) and (max-width:1299px)  {
+
+    body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 18%, 26%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Roboto;
+}
+
+.Subscribtion-sec{
+    background-color: hsl(0, 0%, 100%);
+    width: 75%;
+    height: 76vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribtion-btn{
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    padding: 4%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 10px;
+   
+}
+
+.subscribtion-btn:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+
+.info-container{
+ width: 43%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 4%;
+ height: fit-content;
+ 
+}
+
+
+.Stay-H1{
+    font-size: 3.5rem;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    font-weight: 700;
+    
+}
+
+
+.Join-P{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.list-point-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+}
+
+.list-point-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 4%;
+    height: fit-content;
+}
+
+.list-point-container2 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 3% 0 ;
+}
+
+.list-point-container img{
+    height: fit-content;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+form input{
+    width: 91%;
+    padding:4%;
+    border-radius: 10px;
+    border:2px solid hsl(0, 0%,58%);
+    font-weight: 400;
+}
+
+form label{
+    font-size: x-small;
+    font-weight: 700;
+    margin-top: 10%;
+    
+}
+
+.Error-n-label{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    justify-content: space-between;
+    width: 100%; 
+    background-color: aqua;
+    height: fit-content;
+   
+}
+
+#Error-Massege{
+    font-size: clamp(3px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    color:hsl(4, 100%, 67%);
+}
+
+.error{
+    border-color: hsl(4, 100%, 67%) ;
+    color: hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.171);    
+}
+
+.Img-container{
+    height: 100%;
+    width: auto;
+}
+
+.Illustration-img{
+    height: 100%;
+    width: 100%;
+}
+
+ /*====Popup======*/
+
+#Popup-Container {
+  display: none; /
+ 
+}
+
+.Illustration-mobile-img-div{
+    display: none;
+}
+
+.Illustration-mobile-img{
+    display: none;
+}
+
+ /*====Popup======*/
+
+#Popup-Container {
+display: none; /* hidden initially */
+width: 100%;
+height: 100vh;
+padding: 1%;
+border-radius: 10px;
+border: none;
+background-color:hsl(235, 18%, 26%);
+position: fixed;
+flex-direction: column;
+
+}
+
+.popup-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 34%;
+    height: 58%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: none;
+    margin: auto auto;
+}
+
+.Success-icon{
+    width: 15%;
+    margin: 5% 0 0 8% ;
+}
+
+.Popup-Info{
+    width: 86%;
+    margin: 0 auto 15%;
+}
+
+.Popup-Info h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Popup-Info P{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.Popup-Info button{
+ 
+ width: 100%;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 4% 0;
+ border-radius: 10px;
+ border: none;
+ background-color: hsl(234, 29%, 20%);
+ color: hsl(0, 0%, 100%);
+ margin-top: 6%;
+ 
+
+}
+
+.Popup-Info button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+#UserEmail{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+    
+}
+
+@media (min-width:320px) and (max-width:699px)  {
+* {
+  box-sizing: border-box;
+}
+
+    body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 18%, 26%);
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    font-family: Roboto;
+    overflow-x: hidden;
+    width: 100%;
+    
+}
+
+
+.Subscribtion-sec{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    padding-bottom:5% ;
+}
+
+.subscribtion-btn{
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    padding: 6%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: none;
+   
+}
+
+.subscribtion-btn:active{
+    background-color: hsl(4, 100%, 67%);
+}
+
+.info-container{
+ width: 83%;
+ margin: 2% auto 15%;
+ height: fit-content;
+ 
+}
+
+
+.Stay-H1{
+    font-size: 2.5rem;
+    margin: 5% 2% 2% 0;
+    font-weight: 700;
+    color:  hsl(235, 18%, 26%);
+   
+    
+}
+
+
+.Join-P{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 3%;
+    
+}
+
+.list-point-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 4%;
+    height: fit-content;
+    margin: 4% 0;
+}
+
+.list-point-container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 4%;
+    height: fit-content;
+    margin-top: 5%;
+    width: 88%;
+}
+
+
+.list-point-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 4% 0 0 2% ;
+}
+
+.list-point-container2 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 0 2.3%;
+}
+
+
+.list-point-container img{
+    height: fit-content;
+
+}
+
+.Illustration-mobile-img-div{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 3%;
+  
+}
+
+.Illustration-mobile-img{
+    width: 100%;
+    display: block;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+form input{
+    width: 100%;
+    padding:6%;
+    border-radius: 10px;
+    border:2px solid hsl(0, 0%,58%);
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+form label{
+    font-size: small;
+    font-weight: 700;
+    margin-top: 10%;
+    
+}
+
+.Error-n-label{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    justify-content: space-between;
+    width: 100%; 
+
+    height: fit-content;
+   
+}
+
+#Error-Massege{
+    font-size: clamp(12px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    color:hsl(4, 100%, 67%);
+}
+
+.error{
+    border-color: hsl(4, 100%, 67%) ;
+    color: hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.171);    
+}
+
+.Img-container{
+   display: none;
+}
+
+.Illustration-img{
+    display: none;
+}
+
+ /*====Popup======*/
+
+#Popup-Container {
+display: none; /* hidden initially */
+width: 100%;
+min-height: 100dvh;
+border-radius: 10px;
+border: none;
+background-color:hsl(235, 18%, 26%);
+position: fixed;
+flex-direction: column;
+margin: 0;
+
+
+}
+
+.popup-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    min-height: 100dvh;
+    padding-bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    padding-top:10% ;
+   
+}
+
+.Success-icon{
+    width: 20%;
+    margin: 40% 0 0 8% ;
+}
+
+.Popup-Info{
+    width: 86%;
+    margin: 0 auto 15%;
+}
+
+.Popup-Info h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    color:  hsl(235, 18%, 26%);
+}
+
+.Popup-Info P{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.Popup-Info button{
+ 
+ width: 100%;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 5% 0;
+ border-radius: 10px;
+ border: none;
+ background-color: hsl(234, 29%, 20%);
+ color: hsl(0, 0%, 100%);
+ margin-top: 70%;
+ 
+
+}
+
+.Popup-Info button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+#UserEmail{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+    
+}
+
+
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  
+* {
+  box-sizing: border-box;
+}
+
+ body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 18%, 26%);
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    font-family: Roboto;
+    overflow-x: hidden;
+    width: 100%;
+    
+}
+
+
+.Subscribtion-sec{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.subscribtion-btn{
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    padding: 4%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+   
+}
+.subscribtion-btn:active{
+    background-color: hsl(4, 100%, 67%);
+}
+
+
+.info-container{
+ width: 40%;
+ margin: 0 auto 15%;
+ height: fit-content;
+ margin-top: 5%;
+
+ 
+}
+
+
+.Stay-H1{
+    font-size: 2.5rem;
+    margin: 0 2% 2% 0;
+    font-weight: 700;
+    
+}
+
+
+.Join-P{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+.list-point-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 4%;
+    height: fit-content;
+}
+
+.list-point-container2{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 4%;
+    height: fit-content;
+    margin-top: 5%;
+}
+
+
+.list-point-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5% 0 0 2% ;
+}
+
+.list-point-container2 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 0 2% ;
+}
+
+
+.list-point-container img{
+    height: fit-content;
+
+}
+
+.Illustration-mobile-img-div{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 3%;
+  
+}
+
+.Illustration-mobile-img{
+    width: 100%;
+    display: block;
+    
+}
+
+form{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column
+}
+
+form input{
+    width: 100%;
+    padding:4%;
+    border-radius: 10px;
+    border:2px solid hsl(0, 0%,58%);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 2%;
+    
+}
+
+form label{
+    font-size: clamp(12px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    margin-top: 10%;
+    
+}
+
+.Error-n-label{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    justify-content: space-between;
+    width: 100%; 
+
+    height: fit-content;
+   
+}
+
+#Error-Massege{
+    font-size: clamp(12px, 0.8vw, 0.8rem);
+    font-weight: 700;
+    color:hsl(4, 100%, 67%);
+}
+
+.error{
+    border-color: hsl(4, 100%, 67%) ;
+    color: hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.171);    
+}
+
+.Img-container{
+   display: none;
+}
+
+.Illustration-img{
+    display: none;
+}
+
+ /*====Popup======*/
+
+#Popup-Container {
+display: none; /* hidden initially */
+width: 100%;
+min-height: 100dvh;
+border-radius: 10px;
+border: none;
+background-color:hsl(235, 18%, 26%);
+position: fixed;
+flex-direction: column;
+margin: 0;
+
+
+}
+
+.popup-content{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    min-height: 100dvh;
+    padding-bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    padding-top:10% ;
+   
+}
+
+.Success-icon{
+    width: 10%;
+    margin: 30% 0 2% 26% ;
+}
+
+.Popup-Info{
+    width: 46%;
+    margin: 0 auto 15%;
+}
+
+.Popup-Info h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    color:  hsl(235, 18%, 26%);
+}
+
+.Popup-Info P{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.Popup-Info button{
+ 
+ width: 100%;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 5% 0;
+ border-radius: 10px;
+ border: none;
+ background-color: hsl(234, 29%, 20%);
+ color: hsl(0, 0%, 100%);
+ margin-top: 70%;
+ 
+
+}
+
+.Popup-Info button:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 4px 18px 10px hsla(4, 100%, 67%, 0.267);
+}
+
+
+#UserEmail{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+}
