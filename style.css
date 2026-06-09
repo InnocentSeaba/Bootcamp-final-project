@@ -64,7 +64,7 @@
  margin-right: auto;
  margin-top: 4%;
  height: fit-content;
- background-color: aqua;
+ 
  
 }
 
@@ -311,7 +311,6 @@ flex-direction: column;
  margin-right: auto;
  margin-top: 4%;
  height: fit-content;
- background-color: aqua;
  
 }
 
@@ -885,7 +884,6 @@ form label{
     align-items:first baseline ;
     justify-content: space-between;
     width: 100%; 
-    background-color: aqua;
     height: fit-content;
    
 }
